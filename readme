@@ -6,4 +6,4 @@ Author (in Chinese): 黄奕翼 (yhuangcm@connect.ust.hk)
 Change the data $a_in, $a_R or $c, etc. as necessary in the file "sample.pl"
 
 2. For python users
-Change the data in the file "sample.py" as necessary. Note that the python script invokes the perl libraries "lib/QEDC.pm" via "lib/lib/QEDC_py.pl" essentially and is thus slower than "sample.pl", which directly calls "lib/QEDC.pm". 
+Change the data in the file "sample.py" as necessary. Note that the python script invokes the perl libraries "lib/QEDC.pm" via "lib/QEDC_py.pl" essentially and is thus slower than "sample.pl", which directly calls "lib/QEDC.pm". 

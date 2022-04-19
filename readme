@@ -3,7 +3,13 @@ Author: HUANG, Yiyi (yhuangcm@connect.ust.hk)
 Author (in Chinese): 黄奕翼 (yhuangcm@connect.ust.hk)
 
 1. For perl users
+1.1. dependencies
+Perl version v5.21.1 or above with modules POSIX, Data::Dump, Exporter, List::Util (install these modules with e.g. cpanm).
+1.2. usage
 Change the data $a_in, $a_R or $c, etc. as necessary in the file "sample.pl"
 
 2. For python users
+2.1. dependencies
+Perl version v5.21.1 or above with modules POSIX, Data::Dump, Exporter, List::Util, lib (install these modules with e.g. cpanm) in addition to Python version either 2 or 3 with python modules re, subprocess.
+2.2. usage
 Change the data in the file "sample.py" as necessary. Note that the python script invokes the perl libraries "lib/QEDC.pm" via "lib/QEDC_py.pl" essentially and is thus slower than "sample.pl", which directly calls "lib/QEDC.pm". 
